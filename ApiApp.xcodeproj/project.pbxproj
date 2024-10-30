@@ -14,6 +14,12 @@
 		EA06E7A92CC64C6C00E322BB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EA06E7A82CC64C6C00E322BB /* Base */; };
 		EA06E7AB2CC64C6D00E322BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA06E7AA2CC64C6D00E322BB /* Assets.xcassets */; };
 		EA06E7AE2CC64C6D00E322BB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EA06E7AD2CC64C6D00E322BB /* Base */; };
+		EA06E7D62CC8EA4D00E322BB /* ApiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA06E7D52CC8EA4D00E322BB /* ApiViewController.swift */; };
+		EA06E7D82CC8EBEF00E322BB /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA06E7D72CC8EBEF00E322BB /* FavoriteViewController.swift */; };
+		EA06E7DA2CC9324200E322BB /* ApiKey.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA06E7D92CC9324200E322BB /* ApiKey.plist */; };
+		EA06E7DE2CC9358000E322BB /* shopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA06E7DD2CC9358000E322BB /* shopCell.swift */; };
+		EA06E7E02CCA891000E322BB /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA06E7DF2CCA891000E322BB /* ApiResponse.swift */; };
+		EA06E7E22CCA9CA900E322BB /* FavoriteShop.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = EA06E7E12CCA9CA900E322BB /* FavoriteShop.swift .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +34,12 @@
 		EA06E7AA2CC64C6D00E322BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA06E7AD2CC64C6D00E322BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA06E7AF2CC64C6D00E322BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA06E7D52CC8EA4D00E322BB /* ApiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiViewController.swift; sourceTree = "<group>"; };
+		EA06E7D72CC8EBEF00E322BB /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		EA06E7D92CC9324200E322BB /* ApiKey.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ApiKey.plist; sourceTree = "<group>"; };
+		EA06E7DD2CC9358000E322BB /* shopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shopCell.swift; sourceTree = "<group>"; };
+		EA06E7DF2CCA891000E322BB /* ApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
+		EA06E7E12CCA9CA900E322BB /* FavoriteShop.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FavoriteShop.swift .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +95,16 @@
 				EA06E7A12CC64C6C00E322BB /* AppDelegate.swift */,
 				EA06E7A32CC64C6C00E322BB /* SceneDelegate.swift */,
 				EA06E7A52CC64C6C00E322BB /* ViewController.swift */,
+				EA06E7D72CC8EBEF00E322BB /* FavoriteViewController.swift */,
+				EA06E7D52CC8EA4D00E322BB /* ApiViewController.swift */,
+				EA06E7DD2CC9358000E322BB /* shopCell.swift */,
+				EA06E7DF2CCA891000E322BB /* ApiResponse.swift */,
+				EA06E7E12CCA9CA900E322BB /* FavoriteShop.swift .swift */,
 				EA06E7A72CC64C6C00E322BB /* Main.storyboard */,
 				EA06E7AA2CC64C6D00E322BB /* Assets.xcassets */,
 				EA06E7AC2CC64C6D00E322BB /* LaunchScreen.storyboard */,
 				EA06E7AF2CC64C6D00E322BB /* Info.plist */,
+				EA06E7D92CC9324200E322BB /* ApiKey.plist */,
 			);
 			path = ApiApp;
 			sourceTree = "<group>";
@@ -152,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA06E7AB2CC64C6D00E322BB /* Assets.xcassets in Resources */,
+				EA06E7DA2CC9324200E322BB /* ApiKey.plist in Resources */,
 				EA06E7AE2CC64C6D00E322BB /* Base in Resources */,
 				EA06E7A92CC64C6C00E322BB /* Base in Resources */,
 			);
@@ -207,8 +226,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA06E7A62CC64C6C00E322BB /* ViewController.swift in Sources */,
+				EA06E7E22CCA9CA900E322BB /* FavoriteShop.swift .swift in Sources */,
 				EA06E7A22CC64C6C00E322BB /* AppDelegate.swift in Sources */,
 				EA06E7A42CC64C6C00E322BB /* SceneDelegate.swift in Sources */,
+				EA06E7E02CCA891000E322BB /* ApiResponse.swift in Sources */,
+				EA06E7DE2CC9358000E322BB /* shopCell.swift in Sources */,
+				EA06E7D62CC8EA4D00E322BB /* ApiViewController.swift in Sources */,
+				EA06E7D82CC8EBEF00E322BB /* FavoriteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
